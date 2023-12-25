@@ -20,7 +20,6 @@ public class DynamicQueue extends CircularQueue{
             end=data.length;
             data=temp;
         }
-
         // at this point we know array is not full
         // insert item
         return super.insert(item);
