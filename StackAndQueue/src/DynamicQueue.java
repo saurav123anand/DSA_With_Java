@@ -5,7 +5,6 @@ public class DynamicQueue extends CircularQueue{
     public DynamicQueue(int size) {
         super(size);
     }
-
     @Override
     public boolean insert(int item) {
         if (isFull()){
