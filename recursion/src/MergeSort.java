@@ -71,7 +71,7 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-         int[] arr={2,1,3};
+         int[] arr={9,3,6,2,0};
         //System.out.println(Arrays.toString(mergeSort(arr)));
         mergeSortInPlace(arr,0,arr.length);
         System.out.println(Arrays.toString(arr));

@@ -69,6 +69,8 @@ public class Q10 {
 //        System.out.println(arrayList);
 //        System.out.println(findAllIndex(arr2,18,0,new ArrayList<>()));
         int[] arr={1,2,3,4,4,8};
+//        System.out.println(findAllIndex2(arr,4,0));
+//        System.out.println(findIndex(arr,4,0));
         System.out.println(findAllIndex2(arr,4,0));
     }
 }

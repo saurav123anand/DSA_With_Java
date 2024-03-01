@@ -31,6 +31,6 @@ public class Q2 {
     public static void main(String[] args) {
        // subsequence("","abc");
 //       System.out.println(subsequence2("","abc"));
-        System.out.println(subsequence2("","aabca"));
+        System.out.println(subsequence2("","abc"));
     }
 }

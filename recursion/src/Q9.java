@@ -7,7 +7,7 @@ public class Q9 {
         return arr[index]<=arr[index+1] && isSorted(arr,index+1);
     }
     public static void main(String[] args) {
-      int[] arr={3,3,4,2,11,13};
+      int[] arr={3,3,4,11,13};
         System.out.println(isSorted(arr,0));
     }
 }

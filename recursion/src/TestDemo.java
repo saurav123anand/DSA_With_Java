@@ -1,27 +1,37 @@
-import java.time.Year;
-import java.util.*;
+class Node<T> {
+    T data;
+    Node<T> next;
+    Node(T data){
+        this.data = data;
+    }
+}
 
 public class TestDemo {
-    public static int reductionOperations(int[] nums) {
-        Arrays.sort(nums);
-        // finding pos of first non-equal element
-        int i = 0;
-        while (i < nums.length && nums[i] == nums[0]) {
-            i++;
+
+    public static void print(Node<Integer> head){
+        Node<Integer> temp = head;
+
+        while(temp != null){
+            System.out.print(temp.data +" ");
+            temp = temp.next;
         }
-        int steps = 0;
-        int pos = 0;
-        for (; i < nums.length; i++) {
-            if (nums[i] != nums[i - 1]) {
-                pos++;
-            }
-            steps += pos;
-        }
-        return steps;
+        System.out.println();
     }
 
-    public static void main(String[] args) {
-        int[] nums={5,1,3};
-        System.out.println(reductionOperations(nums));
+    public static void increment(Node<Integer> head){
+        Node<Integer> temp = head;
+        while(temp != null){
+            temp.data++;
+            temp = temp.next;
+        }
+    }
+
+    public static void main(String args[]){
+
+        Node<Integer> node1 = new Node<Integer>(10);
+        Node<Integer> node2 = new Node<Integer>(20);
+        node1.next = node2;
+        increment(node1);
+        print(node1);
     }
 }
