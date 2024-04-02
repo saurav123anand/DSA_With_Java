@@ -1,4 +1,5 @@
 import java.time.LocalDate;
+import java.util.Scanner;
 import java.util.UUID;
 
 public class Main {
@@ -14,11 +15,14 @@ public class Main {
 //        }
 //        System.out.println(avl.height());
 
-        int[] arr = {3, 8, 6, 7, -2, -8, 4, 9};
-        SegmentTree tree = new SegmentTree(arr);
-         tree.display();
+//        int[] arr = {3, 8, 6, 7, -2, -8, 4, 9};
+//        SegmentTree tree = new SegmentTree(arr);
+//         tree.display();
 
         //System.out.println(tree.query(1, 6));
+       BinaryTree binaryTree=new BinaryTree();
+       binaryTree.populate(new Scanner(System.in));
+       binaryTree.display();
     }
 
 }
