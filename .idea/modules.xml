@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DSA_With_Java.iml" filepath="$PROJECT_DIR$/.idea/DSA_With_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackAndQueue/StackAndQueue.iml" filepath="$PROJECT_DIR$/StackAndQueue/StackAndQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arraysSearchingSorting/arraysSearchingSorting.iml" filepath="$PROJECT_DIR$/arraysSearchingSorting/arraysSearchingSorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bitManipulation/bitManipulation.iml" filepath="$PROJECT_DIR$/bitManipulation/bitManipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/linkedlist.iml" filepath="$PROJECT_DIR$/linkedlist/linkedlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/math/math.iml" filepath="$PROJECT_DIR$/math/math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patterns/patterns.iml" filepath="$PROJECT_DIR$/patterns/patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recursion/recursion.iml" filepath="$PROJECT_DIR$/recursion/recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trees/trees.iml" filepath="$PROJECT_DIR$/trees/trees.iml" />
+    </modules>
+  </component>
+</project>
